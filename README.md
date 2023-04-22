@@ -1,14 +1,13 @@
 # Instructions for CS384 Homeworks 
 
-[Homework 0](https://github.com/Qdog31/CS384/tree/main#cs384-homework-0) <br>
-[Homework 1](https://github.com/Qdog31/CS384/tree/main#cs384-homework-1) <br>
-[Homework 2](https://github.com/Qdog31/CS384/tree/main#cs384-homework-2) <br>
-[Homework 3](https://github.com/Qdog31/CS384/tree/main#cs384-homework-3) <br>
-[Homework 4](https://github.com/Qdog31/CS384/tree/main#cs384-homework-4) <br>
-[Homework 5](https://github.com/Qdog31/CS384/tree/main#cs384-homework-5) <br>
-[Homework 6](https://github.com/Qdog31/CS384/tree/main#cs384-homework-6) <br>
-[Homework 7](https://github.com/Qdog31/CS384/tree/main#cs384-homework-7) <br>
-[Homework 8](https://github.com/Qdog31/CS384/tree/main#cs384-homework-8) <br>
+[Homework 1](https://github.com/Qdog31/CS384/tree/main#homework-1) <br>
+[Homework 2](https://github.com/Qdog31/CS384/tree/main#homework-2) <br>
+[Homework 3](https://github.com/Qdog31/CS384/tree/main#homework-3) <br>
+[Homework 4](https://github.com/Qdog31/CS384/tree/main#homework-4) <br>
+[Homework 5](https://github.com/Qdog31/CS384/tree/main#homework-5) <br>
+[Homework 6](https://github.com/Qdog31/CS384/tree/main#homework-6) <br>
+[Homework 7](https://github.com/Qdog31/CS384/tree/main#homework-7) <br>
+[Homework 8](https://github.com/Qdog31/CS384/tree/main#homework-8) <br>
 
 
 
