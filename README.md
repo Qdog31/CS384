@@ -60,6 +60,69 @@ elements into a single list, in order.<br><b>Example:</b> flatten1(List(List(1,3
 
 [To Top](https://github.com/Qdog31/CS384/tree/main#instructions-for-cs384-homeworks)
 
+## Homework 5
+
+**The goals for this homework are:**  
+(i) Familiarization with scala syntax  
+(ii) Familiarization with Binary Tree Data Structure (iii) Traversal of a Binary Tree  
+(iv) Pattern Matching and recursion
+
+*   Definition of a BinaryTree from class
+    
+        enum BinaryTree[+A]:  
+          case Empty  
+          case Node(item: A, left: BinaryTree[A], right: BinaryTree[A])
+        
+    
+    **YOU MAY NOT USE TRIPLE CONS (:::) FOR THIS HW**
+    
+
+1.  `def inOrderToList(tree: BinaryTree[A]): List[A]`: Returns a list of all items in `tree`, ordered from left,**Root**,right. For example, given the tree below, return `List(4, 3, 5, 2, 7, 6, 8, 1, 9)`. _Hint: a Helper may be useful._
+ ```
+           1
+          / \
+        _2_  9
+       /   \
+      3     6
+     / \   / \
+    4   5 7   8
+ ```
+
+2.  `def preOrderToList(tree: BinaryTree[A]): List[A]`: Returns a list of all items in `tree`, ordered from **Root**,left,right. For example, given the tree below, return `List(1, 2, 3, 4, 5, 6, 7, 8, 9)`. _Hint: a Helper may be useful._
+```
+           1
+          / \
+        _2_  9
+       /   \
+      3     6
+     / \   / \
+    4   5 7   8
+```  
+
+3.  `def postOrderToList(tree: BinaryTree[A]): List[A]`: Returns a list of all items in `tree`, ordered from left,right,**Root**. For example, given the tree below, return `List(4, 5, 3, 7, 8, 6, 2, 9, 1)`. _Hint: a Helper may be useful._
+```
+           1
+          / \
+        _2_  9
+       /   \
+      3     6
+     / \   / \
+    4   5 7   8
+ ```
+
+4.  `def levelOrderToList(tree: BinaryTree[A]): List[A]`: Returns a list of all items in `tree`, ordered from top to bottom, left to right. For example, given the tree below (where item `1` is in the root node), return `List(1, 2, 9, 3, 6, 4, 5, 7, 8)`. _Hint: Queues might be useful (as we did in class). You may also use the .reverse method in this problem if you’d like._
+```
+           1
+          / \
+        _2_  9
+       /   \
+      3     6
+     / \   / \
+    4   5 7   8
+```
+
+[To Top](https://github.com/Qdog31/CS384/tree/main#instructions-for-cs384-homeworks)
+
 ## Homework 6 
 
 <p><b>Binary Search Tree (<code>BST</code>) –</b> A binary search tree is a node-based tree data structure which has the following invariants or properties (we will use the term invariants from here on out):</p><p><b>INVARIANTS:</b></p><ul><li>The left subtree of a node contains only nodes with keys that are strictly less than(&lt;) the key in the parent node.</li><li>The right subtree of a node contains only nodes with keys that are strictly greaterthan (>) the key in the parent node.</li><li>The left and right subtree each must also be a binary search tree</li></ul><p><b>Definitions:</b></p><p><b>root node:</b> The root node is the node at the very top of the tree. If the root has any nodes below it, the invariants must also hold true.</p><p><b>parent node:</b> a node is a parent node if it has either a left or right node attached to it. Notice that leaf nodes have no children and therefore are not parents. If a node is inserted in the tree at a leaf node, it becomes a parent (oh happy day!).</p><p><b>child node:</b> a child node is a node that has a node directly above it. Notice that the root node does not have a parent and therefore is not a child node.</p><p><b>keys:</b> The item in our Node is referred to as the key, it is used to ensure the invariants hold true.</p><p><span style=color:red><b>USE PATTERN MATCHING AND RECURSION FOR THESE PROBLEMS</b></p><p><code>BST</code>’s can be defined in many ways. Our <code>BST</code> has the following definition using Scala syntax:</p><div class=highlight><pre class=chroma><code class=language-scala data-lang=scala>  <span class=n>enum</span> <span class=nc>SearchTree</span><span class=o>[</span><span class=kt>+A</span><span class=o>]</span><span class=k>:</span>  
