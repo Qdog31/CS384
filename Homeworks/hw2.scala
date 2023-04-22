@@ -38,6 +38,7 @@ object hw2 extends hwtest.hw("CS384"):  //homework 2 Arrays
 
 
   //Problem 2: count Dupes from Array and return that value 
+  //Passed 91/99 tests, so not fully a correct answer 
   def countDupes(array: Array[Int]): Int = 
     var count : Int = 0 
     if array.length == 1 then // obviously there will be no dupes if there is only 1 element.
