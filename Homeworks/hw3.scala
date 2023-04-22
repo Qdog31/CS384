@@ -81,6 +81,7 @@ object hw3 extends hwtest.hw("CS384"):  //homework 3 Recursion
   // WITHOUT any helper functions.
 
   //Problem 4 
+  //Passed 0/100 tests and needs to be corrected 
   def flatten2(lol: List[List[Int]]): List[Int] = 
     if lol.isEmpty then List[Int]()
 
