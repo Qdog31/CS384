@@ -1,6 +1,6 @@
 # README's for CS384 Homeworks 
 
-[Homework 0](https://github.com/Qdog31/CS384/new/main?readme=1#cs384-homework-0) <br>
+[Homework 0](https://github.com/Qdog31/CS384/tree/main#cs384-homework-0) <br>
 [Homework 1](https://github.com/Qdog31/CS384/new/main?readme=1#cs384-homework-1) <br>
 [Homework 2](https://github.com/Qdog31/CS384/new/main?readme=1#cs384-homework-2) <br>
 [Homework 3](https://github.com/Qdog31/CS384/new/main?readme=1#cs384-homework-3) <br>
