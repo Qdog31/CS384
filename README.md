@@ -1,3 +1,22 @@
+# CS384 - Data Structures Class
+
+<b>Course Description:</b> <br>
+
+This course builds on the cadet’s basic programming knowledge. It emphasizes data structures and abstract data types as tools for the analysis, design, and implementation of software modules to meet specified requirements. They will examine data structures including arrays, hash tables, linked lists, and trees, and abstract data types such as heaps, queues, sets, and stacks. The course covers hashing, recursion, searching, and sorting techniques. Cadets will use the Scala Programming Language for all course content. They will design software solutions by employing problem decomposition and selecting appropriate abstract data types and algorithms.
+
+<b>Course Objectives:</b> 
+1.	Discuss the appropriate use of built-in data structures; describe common applications for each of the following data structures: stack, queue, priority queue, set, and map; write programs that use each of the following data structures: arrays, records/structs, strings, linked lists, stacks, queues, sets, and maps; and choose the appropriate data structure for modeling a given problem.
+2.	Know and understand how to program in Scala 3. We are not using Scala 2! I do not want to see curly braces where they do not belong nor do I want to see parentesis or the use of the return keyword where they are not needed. NO PSEUDO CODE! / NO PYTHON! -Use the online documentation to help you learn Scala 3.
+3.	Determine informally the time and space complexity of simple algorithms; and state the formal definition of big O.
+4.	Implement basic numerical algorithms and simple search algorithms, and explain the differences in their time complexities; be able to implement common quadratic and O(N log N) sorting algorithms; and describe the implementation of hash tables, including collision avoidance and resolution.
+5.	Discuss the runtime and memory efficiency of principal algorithms for sorting, searching, and hashing.
+6.	Explain how tree balance affects the efficiency of various binary search tree operations; describe the heap property and the use of heaps as an implementation of priority queues.
+
+7.	Solve problems using fundamental graph algorithms, including depth-first and breadth-first search.
+8.	Implement, test, and debug simple recursive functions and procedures; determine whether a recursive or iterative solution is most appropriate for a problem; and implement a divide-and-conquer algorithm for solving a problem.
+
+
+
 # Instructions for CS384 Homeworks 
 
 [Homework 1](https://github.com/Qdog31/CS384/tree/main#homework-1) <br>
