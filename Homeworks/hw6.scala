@@ -57,7 +57,7 @@ object hw6 extends hwtest.hw("CS384"):
   ignoretest("minimum", minimum, "tree")
   
   //Removing a node must maintain the invariant
-  //bonus problem
+  //bonus problem (not attempted/completed)
   def remove(tree: SearchTree[Int], x: Int): SearchTree[Int] = ???
   
   ignoretest("remove", remove, "tree", "x")
