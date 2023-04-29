@@ -27,6 +27,7 @@ This course builds on the cadet’s basic programming knowledge. It emphasizes d
 [Homework 6](https://github.com/Qdog31/CS384/tree/main#homework-6) <br>
 [Homework 7](https://github.com/Qdog31/CS384/tree/main#homework-7) <br>
 [Homework 8](https://github.com/Qdog31/CS384/tree/main#homework-8) <br>
+[Homework 9](https://github.com/Qdog31/CS384/tree/main#homework-9) <br>
 
 
 ## Homework 0
@@ -169,3 +170,13 @@ Insert and deleteMin should be trivial based on the instructions given in class.
 <b>size</b> of the winning MinHeap&rsquo;s right sub-tree.</p><p>You must use <b>Recursion and Pattern Matching</b></p><ol><li><p><code>def insert(elem: Int, h: MinHeap): MinHeap = ???</code></p></li><li><p><code>def merge(h1: MinHeap, h2: MinHeap): MinHeap = ???</code></p></li><li><p><code>def deleteMin(h: MinHeap): MinHeap = ???</code><br>deleting from a MinHeap should throw new NoSuchElementException(&ldquo;deleteMin of empty heap&rdquo;)</p></li></ol></article></main>
 
 [To Top](https://github.com/Qdog31/CS384/tree/main#instructions-for-cs384-homeworks)
+
+## Homework 9 
+
+<article><p>This homework combines hw9 and hw10. You will write two functions each worth 15 points.<br>Remeber, BFS uses a Queue and DFS uses a Stack.</p><p>In both functions you are returning an Edge List (a representation of a graph).</p><p>For this homework you will be required to write your own tests.</p><p>Example:
+val graph = Array(List(1,3),List(0,2,3,4),List(1,4),List(0,1),List(1,2))<br>spanTreeB(graph,1) - calls spanTreeB with graph and 1 is the start node.</p><p>You can make your own graphs as I have done in the example above.</p><ol><li><p>(15 Points) The first function spanTreeB takes a graph and a start node and returns a span tree.
+You must use a Breadth First Search to return the span tree.<br><code>def spanTreeB(g: Array[List[Int]], start: Int) List[(Int,Int)] = ???</code></p></li><li><p>(15 Points) The second function spanTreeD takes a graph and a start node and returns a span tree.
+You must use a Depth First Search to return the span tree.<br><code>def spanTreeD(g: Array[List[Int]], start: Int): List[(Int, Int)] = ???</code></p></li></ol>
+
+[To Top](https://github.com/Qdog31/CS384/tree/main#instructions-for-cs384-homeworks)
+
